@@ -1,0 +1,18 @@
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: green;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #cfcfcf;
+    border-radius: 50%;
+}
+
+#wrong{
+  background-color: red;
+}
+
+.weui-form-preview__ft{
+  margin-top: 20px;
+}

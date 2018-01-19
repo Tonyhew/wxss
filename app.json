@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/exam/index/index",
+    "pages/exam/exam",
+    "pages/Q&A/index",
+    "pages/exam/explain/explain",
+    "pages/exam/result/result",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/book/book"
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1AAD19",
+    "color": "black",
+    "list": [
+      {
+        "pagePath": "pages/Q&A/index",
+        "text": "问答",
+        "iconPath": "images/icon/mortar-board.png",
+        "selectedIconPath": "images/icon/mortar-board_active.png"
+      },
+      {
+        "pagePath": "pages/exam/index/index",
+        "text": "考试",
+        "iconPath": "images/icon/pencil-s.png",
+        "selectedIconPath": "images/icon/pencil-s_active.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "教程",
+        "iconPath": "images/icon/book.png",
+        "selectedIconPath": "images/icon/book_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/icon/user.png",
+        "selectedIconPath": "images/icon/user_active.png"
+      }
+    ]
+  }
+}

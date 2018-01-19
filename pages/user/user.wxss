@@ -1,0 +1,13 @@
+/* pages/user/user.wxss */
+
+
+.weui-cells{
+margin-top: 20px;
+
+}
+
+
+.img{
+  width: 82rpx;
+  height: 82rpx;
+}

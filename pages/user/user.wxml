@@ -1,0 +1,41 @@
+<!--pages/user/user.wxml-->
+<view class='page'>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">头像</view>
+      <view class="weui-cell__ft"><image class='img' src=".../images/avatar"></image></view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">姓名</view>
+      <view class="weui-cell__ft">何伟义</view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">微信号</view>
+      <view class="weui-cell__ft">Tonyheweiyi</view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">二维码</view>
+      <view class="weui-cell__ft">说明文字</view>
+    </view>
+    <view class="weui-cell" bindtap="openConfirm">
+      <view class="weui-cell__bd">我的地址</view>
+      <view class="weui-cell__ft">说明文字</view>
+    </view>
+  </view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">性别</view>
+      <view class="weui-cell__ft">说明文字</view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">地区</view>
+      <view class="weui-cell__ft">说明文字</view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">个性签名</view>
+      <view class="weui-cell__ft">说明文字</view>
+    </view>
+    
+  </view>
+</view>
+

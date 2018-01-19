@@ -1,0 +1,80 @@
+<!--pages/exam/result/result.wxml-->
+<view class="weui-form-preview">
+  <view class="weui-form-preview__hd">
+    <view class="weui-form-preview__item">
+      <view class="weui-form-preview__label">成绩</view>
+      <view class="weui-form-preview__value_in-hd">99.9</view>
+    </view>
+  </view>
+  <view class="weui-form-preview__bd">
+    <view class="weui-form-preview__item">
+      <view class="weui-form-preview__label">正确率</view>
+      <view class="weui-form-preview__value">99%</view>
+    </view>
+    <view class="weui-form-preview__item">
+      <view class="weui-form-preview__label">用时</view>
+      <view class="weui-form-preview__value">00：00：00</view>
+    </view>
+    <view class="weui-form-preview__item">
+      <view class="weui-form-preview__label">错误</view>
+      <view class="weui-form-preview__value">1</view>
+    </view>
+    <view class="weui-form-preview__item">
+      <view class="weui-form-preview__label">排名</view>
+      <view class="weui-form-preview__value">1</view>
+    </view>
+  </view>
+
+  <view class="page__bd page__bd_spacing">
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">1</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">2</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">3</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">4</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">5</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">6</navigator>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <navigator url='/pages/exam/explain/explain'  class="placeholder" id='wrong'>7</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">8</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">9</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator  url='' class="placeholder">10</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url=''  class="placeholder">11</navigator>
+      </view>
+      <view class="weui-flex__item">
+        <navigator url='' class="placeholder">12</navigator>
+      </view>
+    </view>
+    
+    
+  </view>
+
+  <view class="weui-form-preview__ft">
+    <navigator url="/pages/exam/index/index" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">
+    返回
+    </navigator>
+  </view>
+</view>
+
+
