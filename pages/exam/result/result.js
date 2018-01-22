@@ -7,7 +7,12 @@ Page({
   data: {
   
   },
-
+  answer: function () {
+    console.log('提交');
+    wx.switchTab({
+      url: '/pages/exam/index/index'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

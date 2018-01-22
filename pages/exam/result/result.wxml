@@ -71,7 +71,7 @@
   </view>
 
   <view class="weui-form-preview__ft">
-    <navigator url="/pages/exam/index/index" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">
+    <navigator url="/pages/exam/index/index" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" bindtap="answer">
     返回
     </navigator>
   </view>

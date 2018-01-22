@@ -1,5 +1,5 @@
 //app.js
-var base64 = require("/images/base64.js");
+
 App({
   
   onLoad: function () {

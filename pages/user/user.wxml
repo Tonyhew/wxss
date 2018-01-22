@@ -3,7 +3,7 @@
   <view class="weui-cells weui-cells_after-title">
     <view class="weui-cell">
       <view class="weui-cell__bd">头像</view>
-      <view class="weui-cell__ft"><image class='img' src=".../images/avatar"></image></view>
+      <view class="weui-cell__ft"><image class='img' src="/images/avatar.png"></image></view>
     </view>
     <view class="weui-cell">
       <view class="weui-cell__bd">姓名</view>

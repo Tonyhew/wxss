@@ -1,5 +1,6 @@
-// pages/user/user.js
-var base64 = require("../images/base64");
+var base64 = require("/images/base64.js");
+
+
 Page({
 
   /**
@@ -11,7 +12,11 @@ Page({
     sliderOffset: 0,
     sliderLeft: 0
   },
-  
+  onLoad: function () {
+    this.setData({
+      icon: base64.icon20
+    });
+  },
   onLoad: function () {
     var that = this;
     wx.getSystemInfo({
@@ -29,12 +34,7 @@ Page({
       activeIndex: e.currentTarget.id
     });
   },
-  onLoad: function () {
-    var base64 = require("images/base64");
-    this.setData({
-      icon: base64.icon20
-    });
-  },
+  
   /**
    * 生命周期函数--监听页面加载
    */
