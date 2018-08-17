@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    grids: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    grids: [
+      { id: 0, name: "php", picUrl: "images/icon_nav_search.png"},
+      { id: 1, name: "java", picUrl: "images/icon_nav_search.png"},
+      { id: 2, name: "c#", picUrl: "images/icon_nav_search.png" },
+      { id: 3, name: "java", picUrl: "images/icon_nav_search.png" },
+      { id: 4, name: "mysql", picUrl: "images/icon_nav_search.png" },
+      { id: 5, name: "css", picUrl: "images/icon_nav_search.png" },
+      { id: 6, name: "html", picUrl: "images/icon_nav_search.png" },
+      { id: 7, name: "ruby", picUrl: "images/icon_nav_search.png" },
+      { id: 8, name: "javascript", picUrl: "images/icon_nav_search.png" },
+    ]
   },
 
   /**

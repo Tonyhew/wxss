@@ -1,13 +1,13 @@
 {
   "pages": [
+    "pages/book/book",
     "pages/exam/index/index",
     "pages/exam/exam",
     "pages/Q&A/index",
     "pages/exam/explain/explain",
     "pages/exam/result/result",
     "pages/logs/logs",
-    "pages/user/user",
-    "pages/book/book"
+    "pages/user/user"
     
     
   ],
