@@ -6,15 +6,15 @@ Page({
    */
   data: {
     grids: [
-      { id: 0, name: "php", picUrl: "images/icon_nav_search.png"},
-      { id: 1, name: "java", picUrl: "images/icon_nav_search.png"},
-      { id: 2, name: "c#", picUrl: "images/icon_nav_search.png" },
-      { id: 3, name: "java", picUrl: "images/icon_nav_search.png" },
-      { id: 4, name: "mysql", picUrl: "images/icon_nav_search.png" },
-      { id: 5, name: "css", picUrl: "images/icon_nav_search.png" },
-      { id: 6, name: "html", picUrl: "images/icon_nav_search.png" },
-      { id: 7, name: "ruby", picUrl: "images/icon_nav_search.png" },
-      { id: 8, name: "javascript", picUrl: "images/icon_nav_search.png" },
+      { id: 0, name: "php", picUrl: "images/php.png"},
+      { id: 1, name: "java", picUrl: "images/java.png"},
+      { id: 2, name: "c#", picUrl: "images/c语言.png" },
+      { id: 3, name: "python", picUrl: "images/python.png" },
+      { id: 4, name: "mysql", picUrl: "images/mysql.png" },
+      { id: 5, name: "css", picUrl: "images/css.png" },
+      { id: 6, name: "html", picUrl: "images/html.png" },
+      { id: 7, name: "ruby", picUrl: "images/ruby.png" },
+      { id: 8, name: "javascript", picUrl: "images/javascript.png" },
     ]
   },
 
